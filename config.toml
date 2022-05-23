@@ -1,6 +1,10 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://itsleg.day'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = "It's Leg Day"
+
+[params.homeInfoParams]
+Title = "It's Leg Day: A sporadic collection of unrelated topics"
+Content = "My personal blog for fleshing out ideas and long-form information. All opinions are my own."
 
 [module]
   [[module.imports]]
