@@ -6,6 +6,10 @@ on:
       - main  # Set a branch to deploy
   pull_request:
 
+env:
+  # Enables SEO/Social Metadata
+  HUGO_ENV: production
+
 jobs:
   deploy:
     runs-on: ubuntu-20.04
