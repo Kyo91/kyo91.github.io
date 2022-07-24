@@ -2,9 +2,53 @@ baseURL = 'https://itsleg.day'
 languageCode = 'en-us'
 title = "It's Leg Day"
 
+[params]
+ShowReadingTime = true
+ShowCodeCopyButtons = true
+ShowRssButtonInSectionTermList = true
+ShowAllPagesInArchive = false
+
+[[menu.main]]
+identifier = "posts"
+name = "Posts"
+url = "/posts/"
+weight = 1
+
+[[menu.main]]
+identifier = "tags"
+name = "Tags"
+url = "/tags/"
+weight = 5
+
+[[menu.main]]
+identifier = "search"
+name = "Search"
+url = "/search/"
+weight = 10
+
+[[menu.main]]
+identifier = "archive"
+name = "Archive"
+url = "/archives/"
+weight = 2
+
+
+
+
 [params.homeInfoParams]
 Title = "It's Leg Day: A sporadic collection of unrelated topics"
 Content = "My personal blog for fleshing out ideas and long-form information. All opinions are my own."
+
+[[params.socialIcons]]
+  name = "Twitter"
+  url = "https://twitter.com/kyo9142"
+[[params.socialIcons]]
+  name = "Github"
+  url = "https://github.com/kyo91"
+
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
+
 
 [module]
   [[module.imports]]

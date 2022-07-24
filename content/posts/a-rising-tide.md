@@ -1,6 +1,8 @@
 +++
 title = "A Rising Tide Lifts All Boats, or Understanding Temporal Survivorship Bias"
 author = ["Sam Blumenthal"]
+date = 2022-07-13T00:00:00-05:00
+tags = ["risk", "bias", "investing"]
 draft = false
 comments = true
 +++
